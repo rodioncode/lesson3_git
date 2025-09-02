@@ -22,8 +22,8 @@ fun main() {
     }
 
     fun exercise02() {
-        println("Exercise02")
         println("Input Student test score ")
+        println("Exercise02")
 
         val score: Int = readLine()?.toIntOrNull() ?: 0
 
@@ -44,7 +44,6 @@ fun main() {
                 println("Grade A")
             }
             else -> {
-                println("Invalid score")
             }
         }
 
