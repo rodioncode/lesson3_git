@@ -27,18 +27,26 @@ fun main() {
 
         val score: Int = readLine()?.toIntOrNull() ?: 0
 
-        if (score in 0..29) {
-            println("Grade F")
-        } else if (score in 30..49) {
-            println("Grade D")
-        } else if (score in 50..74) {
-            println("Grade C")
-        } else if (score in 75..89) {
-            println("Grade B")
-        } else if (score in 90..100) {
-            println("Grade A")
-        } else {
-            println("Invalid score")
+        when (score) {
+            in 0..29 -> {
+                println("Grade F")
+            }
+            in 30..49 -> {
+                println("Grade D")
+            }
+            in 50..74 -> {
+                println("Grade C")
+            }
+            in 75..89 -> {
+                println("Grade B")
+            }
+            in 90..100 -> {
+                println("Grade A")
+            }
+            else -> {
+                println("Invalid score")
+                println("")
+            }
         }
 
 
