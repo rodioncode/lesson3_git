@@ -20,6 +20,7 @@ class First {
         System.out.print(main3.a);
         System.out.print(main4.a);
         Main.func_static();
+        afs
     }
 
     static void func4() {
