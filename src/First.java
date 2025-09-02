@@ -7,6 +7,7 @@ class First {
         First first = new First();
         first.func2();
     }
+
     public void func2() {
         Main main = new Main();
         main.func1();
@@ -20,7 +21,6 @@ class First {
         System.out.print(main3.a);
         System.out.print(main4.a);
         Main.func_static();
-        afs
     }
 
     static void func4() {
