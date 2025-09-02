@@ -1,6 +1,7 @@
 ### IntelliJ IDEA ###
 .idea/
 passwords
+passwords2
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
