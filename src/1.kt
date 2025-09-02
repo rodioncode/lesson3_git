@@ -45,7 +45,6 @@ fun main() {
             }
             else -> {
                 println("Invalid score")
-                println("")
             }
         }
 
