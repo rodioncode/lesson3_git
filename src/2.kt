@@ -4,7 +4,7 @@ fun main() {
     println("Введите баллы")
     val ball: Int = readln()?.toInt()?:0
     when (ball) {
-        in 89..100 -> {
+        in 89..101 -> {
             println("Оценка А")
         }
         in 75..89 -> {
